@@ -8,6 +8,7 @@ export const ContactList = ({ filteredNames, deleteContact }) => {
           <p>
             {contact.name}: {contact.number}
           </p>
+
           <button
             className="delete-contact"
             type="button"
